@@ -1,0 +1,71 @@
+/* Main container for the landing page */
+.landing-page {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  background-color: #0e1a29;
+  font-family: Arial, sans-serif;
+  padding-top: 120px;
+  padding-left: 80px;
+}
+
+/* Content inside the landing page */
+.landing-page .landing-content {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+/* Main heading styling (scoped) */
+.landing-page h1 {
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: left;
+  letter-spacing: 1px;
+  color: #fff;
+  line-height: 1.2;
+}
+
+/* Paragraph styling (scoped) */
+.landing-page p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  letter-spacing: 0.5px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Button styling (scoped) */
+.landing-page .partner-btn {
+  background-color: #00aaff;
+  color: #fff;
+  padding: 15px 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.3s;
+  font-weight: 600;
+}
+
+.landing-page .partner-btn:hover {
+  background-color: #0088cc;
+}
+
+/* Background image styling (scoped) */
+.landing-page .background-image {
+  position: absolute;
+  inset: 0;
+  background-image: url('../assets/background.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.4;
+  z-index: 0;
+}
